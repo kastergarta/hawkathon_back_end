@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 2019_09_19_205729) do
     t.string "password_digest"
     t.string "location"
     t.string "skills"
+    t.integer "teamplayer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
