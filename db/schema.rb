@@ -18,7 +18,12 @@ ActiveRecord::Schema.define(version: 2019_09_19_205729) do
     t.string "password_digest"
     t.string "location"
     t.string "skills"
-    t.integer "teamplayer"
+    t.integer "teamplayer", default: 0
+    t.integer "communication", default: 0
+    t.integer "patience", default: 0
+    t.integer "creativity", default: 0
+    t.integer "projectmanagement", default: 0
+    t.integer "adaptability", default: 0
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
